@@ -19,6 +19,8 @@ y = prompt("Olá, qual é o seu nome?")
 //Saída - alert, console.log, document.write
 alert(x)
 alert("Olá, mundo!"+x)
+console.log("Olá mundo!"+x);
+document.write("Olá mundo!"+x)
 
 //Converter tipos de dados
 parseInt() //parseInt só aceita número inteiro
@@ -34,6 +36,7 @@ if (x > 6){
   alert("x é menor que 6")
 }
 // if é uma condição, else é o que acontece se a condição não for atendida e else if é uma condição dentro de outra condição 
+
 //Operadores Relacionais
 > //maior
 < //menor
@@ -41,5 +44,8 @@ if (x > 6){
 <= //menor ou igual
 == //igual
 != //diferente de
+
+//Operadores Lógicos
 && //e Ex: x > 6 && x < 10
 || //ou
+! //não
