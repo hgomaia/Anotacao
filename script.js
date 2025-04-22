@@ -49,3 +49,30 @@ if (x > 6){
 && //e Ex: x > 6 && x < 10
 || //ou
 ! //não
+  if(num%3 == 0 && num%5 == 0){
+  alert("Multiplo de 3 e 5")
+ }
+if(mes==1 || mes==2){
+  alert("1° bimestre")
+}
+//Tabela Verdade
+//&& 
+//V V = V
+//V F = F  (logo F V = F)
+//F F = F
+//|| (ou)
+//V V = V
+//V F = V (logo F V = V)
+//F F = F
+
+//Funções
+//A função usa um bloco para criar uma porção de código que executa sempre que você chamar a função 
+//Há 2 regiões na função: a principal e a região da função
+//Ex:
+fuction media(){
+  var x, y, media
+  x = Number(prompt())
+  y = Number(prompt())
+  media = (x+y)/2
+  alert(media)
+}
