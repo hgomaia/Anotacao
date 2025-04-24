@@ -12,6 +12,7 @@ const y
 Math.pow(x,y) // potência de x^y
 Math.sqrt(x) // raiz quadrada de x
 Math.pow(x,1/y) // outras raízes; ex: raiz cúbica de x = x^1/3
+x.toFixed(2) //arredonda o número para 2 casas decimais
 
 //Entrada - prompt, confirm
 y = prompt("Olá, qual é o seu nome?")
@@ -76,3 +77,30 @@ fuction media(){
   media = (x+y)/2
   alert(media)
 }
+
+//p5js (algumas coisas so funciona no p5 e outros não)
+function setup(){
+  createCanvas(200, 200)
+  lado = 30
+}
+//Executa uma vez e cria um quadrado
+function draw(){
+  background("blue")
+  text("Hello World!", 10, 50)
+  fill("red")
+  circle(100,100,30)
+  square(100,100,30)
+  rect(100,100,30,40)
+  lado = random(10,40)
+  noStroke()
+  circle(mouseX,mouseY,lado)
+}
+//executa varias vezes e o background: cria um fundo azul (funciona tbm só com numero)
+//text: cria o texto "Hello World" na possicao x=10 e y=50 (no p5 é ao contrario)
+//circle: cria um circulo
+//fill: preenche a cor do circulo, cuidado pois pode aplicar a cor em qualquer objeto que estiver dentro da função, para evitar isso use fill no texto, por exemplo
+//square: quadrado 
+//rect: retangulo (x, y, largura e altura)
+//mouseX,mouseY: cria um circulo que se move de acordo com o mouse
+//noStroke: remove a borda do circulo
+//raindom: cria um circulo que muda aleatoriamente de tamanho de 10 a 40
