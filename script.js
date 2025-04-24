@@ -95,7 +95,8 @@ function draw(){
   noStroke()
   circle(mouseX,mouseY,lado)
 }
-//executa varias vezes e o background: cria um fundo azul (funciona tbm só com numero)
+//a função executa varias evezes
+//background: cria um fundo azul (funciona tbm só com numero)
 //text: cria o texto "Hello World" na possicao x=10 e y=50 (no p5 é ao contrario)
 //circle: cria um circulo
 //fill: preenche a cor do circulo, cuidado pois pode aplicar a cor em qualquer objeto que estiver dentro da função, para evitar isso use fill no texto, por exemplo
