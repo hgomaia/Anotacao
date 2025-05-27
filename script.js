@@ -38,6 +38,16 @@ if (x > 6){
 }
 // if é uma condição, else é o que acontece se a condição não for atendida e else if é uma condição dentro de outra condição 
 
+//Repetição 
+var contagem = 0
+while(contagem<10){
+  alert(x)
+  contagem = contagem + 1 //ou contagem++
+}
+for(contagem=0;contagem<10;contagem++){
+  alert(contagem)
+}
+
 //Operadores Relacionais
 > //maior
 < //menor
@@ -56,6 +66,10 @@ if (x > 6){
 if(mes==1 || mes==2){
   alert("1° bimestre")
 }
+V = false
+if(V){ //se algo for verdade}
+if(!V){//se algo for falso}
+  
 //Tabela Verdade
 //&& 
 //V V = V
